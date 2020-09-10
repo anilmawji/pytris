@@ -44,7 +44,7 @@ def render_score(display, score, high_score):
 
 def render_title(display):
     font = pygame.font.Font('freesansbold.ttf', 50)
-    title_label = font.render('TETRIS', True, WHITE)
+    title_label = font.render('PYTRIS', True, WHITE)
 
     display.blit(title_label, (TOP_LEFT_X + PLAY_WIDTH // 2 - (title_label.get_width() // 2), 25))
 
@@ -55,7 +55,7 @@ def calculate_score(lines):
 
 def main():
     pygame.init()
-    pygame.display.set_caption('Tetris')
+    pygame.display.set_caption('Pytris')
     pygame.mouse.set_visible(False)
 
     display = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
