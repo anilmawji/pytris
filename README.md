@@ -1,3 +1,3 @@
 # pytris
 
-Yet another tetris implementation in python. Creative, right?
+Yet another Tetris implementation in python. Creative, right?
