@@ -7,6 +7,9 @@ Yet another Tetris implementation in python.
 # Controls
 
 W/↑: Rotate
+
 A/←: Move left
+
 D/→: Move Right
+
 S/↓: Speed up
