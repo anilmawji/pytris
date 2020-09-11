@@ -12,6 +12,6 @@ W/↑: Rotate
 
 A/←: Move left
 
-D/→: Move Right
-
 S/↓: Speed up
+
+D/→: Move right
