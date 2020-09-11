@@ -11,7 +11,7 @@ def render_message(display, text, size=40, color=WHITE):
     alpha_surface.fill(GRAY)
     display.blit(alpha_surface, (TOP_LEFT_X, TOP_LEFT_Y))
 
-    font = pygame.font.SysFont('freesansbold', size, bold=True)
+    font = pygame.font.SysFont('freesansbold.ttf', size, bold=True)
     label = font.render(text, True, color)
 
     display.blit(label, (TOP_LEFT_X + PLAY_WIDTH // 2 - (label.get_width() // 2),
@@ -19,7 +19,7 @@ def render_message(display, text, size=40, color=WHITE):
 
 
 def render_next_piece(display, piece):
-    font = pygame.font.SysFont('freesansbold', 30)
+    font = pygame.font.SysFont('freesansbold.ttf', 30)
     label = font.render('NEXT', True, WHITE)
     offset_x = TOP_LEFT_X + PLAY_WIDTH + (DISPLAY_WIDTH - PLAY_WIDTH) // 6
     offset_y = TOP_LEFT_Y + PLAY_HEIGHT // 2 - 200
